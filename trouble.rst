@@ -7,6 +7,8 @@
 .. contents::
    :local:
 
+.. _dealing-with-codecs:
+
 Dealing with Codecs
 ===================
 

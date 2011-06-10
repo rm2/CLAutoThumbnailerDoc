@@ -16,10 +16,10 @@ pages --- or just use the defaults --- and |CLATN| will do the rest. It
 automatically chooses the best number of columns (or rows) that will
 fit.
 
-It can create the typical :term:`Overview thumbnail page` that has
-thumbnails of an entire video on a single page. In addition, it can also
-create as many :term:`Detail thumbnail pages` as required to have
-thumbnails made every set interval (for example, every 60 seconds).
+It can create the typical :doc:`ref-overview` that has thumbnails of an
+entire video on a single page. In addition, it can also create as many
+:doc:`ref-detail` as required to have thumbnails made every set interval
+(for example, every 60 seconds).
 
 .. table::
    :class: centered, centercells, noborders
@@ -57,25 +57,28 @@ types of files will come out with badly sized thumbnail pages.
 Features
 ========
 
-+ Allows fully "automatic" operation based on the video :term:`aspect
-  ratio` but is also customizable.
++ Allows fully :doc:`"automatic" operation <ref-layout>` based on the
+  video :term:`aspect ratio` but is also customizable.
 
 + Can generate an :doc:`Overview <ref-overview>` thumbnail page of an
   entire video.
 
-+ Can generate :doc:`Detail <ref-detail>` thumbnail pages with
-  thumbnails a fixed interval apart.
++ Can generate :doc:`Detail <ref-detail>` thumbnail pages where the
+  thumbnails are created using a specified time interval.
 
-+ Can process entire directories (and sub-directories).
++ Can process :doc:`entire directories <how-thumbnaildir>` (and
+  sub-directories).
 
-+ Can process :doc:`multi-part video files <ref-multipart>` (like DVD
-  .vob sets) as a single long video.
++ Can process :doc:`multi-part video files <how-multipart>` (like
+  :doc:`DVD .vob sets <how-dvd>`) as a single long video.
 
-+ Allows setting start and ending time for thumbnails.
++ Allows setting :doc:`starting and ending times <how-skipcredits>` for
+  thumbnails.
 
-+ Allows cropping to remove black bars and stretching to fix distortion.
++ Allows cropping to :doc:`remove black bars <how-blackbars>` and
+  stretching to :doc:`fix distortion <how-distortion>`.
 
-+ Supports :doc:`Command Files <ref-commandfile>` for batch processing
++ Supports :doc:`Command Files <how-skipcreditscf>` for batch processing
   of files requiring custom settings.
 
 + Allows creation of thumbnails at frequent intervals (sub-second) while
@@ -126,9 +129,8 @@ Binary executables for |CLATN| are available from `GitHub
 Source Code
 -----------
 
-The C# source code and Visual Studio 2010 project files, and Sphinx
-reStructuredText documentation files for |CLATN| are available on
-`GitHub <http://www.github.com>`_ either for `browsing
+The C# source code and Visual Studio 2010 project files for |CLATN| are
+available on `GitHub <http://www.github.com>`_ either for `browsing
 <https://github.com/rm2/CLAutoThumbnailer>`__ or `download
 <https://github.com/rm2/CLAutoThumbnailer/zipball/master>`__.
 
